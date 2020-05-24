@@ -6,9 +6,6 @@ const Persons = (props) => {
 
     <div>
       <ul>
-        {/*{namesToShow.map(person =>
-          <li key={person.name}>{person.name} {person.number}</li>
-        )}*/}
         {props.listFunc}
       </ul>
     </div>
